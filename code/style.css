@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 60px;
+    background-color: #2525F0;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    font-size: 20px;
+    width: 80vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: auto;
+}
+
+.heading {
+    font-size: 48px;
+    padding: 0 20px;
+    color: #fff;
+    height: 60px;
+    background-color: #0A9EE8;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {}
+
+.section1 {
+    margin: 20px 0;
+
+}
+
+.password-container {
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: auto;
+}
+
+.password>p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.showpassword {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showpassword p {
+    font-size: 18px;
+}
+
+.showpassword button {
+    padding: 2px 15px;
+    line-height: 1.8;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(227, 237, 246);
+    z-index: 10;
+}
+
+.showpassword button:hover {
+    box-shadow: 0 0 10px #037efa;
+}
+
+
+.input-password {
+    padding: 10px 3px;
+    background-color: grey;
+    position: inherit;
+}
+
+.input-password input {
+    width: 100%;
+    height: 40px;
+    padding: 0 7px;
+    font-size: 24px;
+    outline: none;
+    border: none;
+}
+
+.input-password .text {
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+input:focus {
+    border: 2px solid #66ff00;
+}
+
+#copybtn {
+    position: relative;
+    z-index: 10;
+    border: none;
+    z-index: 10;
+    top: 10px;
+    left: 91%;
+    background-color: #9ccefb;
+    text-align: center;
+    padding: 0px 6px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #39cef0;
+}
+
+.usedcharacters {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.suggest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 7px 0;
+}
+
+.suggest ul {
+    line-height: 1.5;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sug-paasword {
+    width: fit-content;
+    padding: 2px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    line-height: 1.8;
+    border: none;
+    background-color: rgb(227, 237, 246);
+    z-index: 10;
+}
+
+.sug-paasword:hover {
+    box-shadow: 0 0 10px #037efa;
+}
+
+.section2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: radial-gradient(circle at bottom right, #00ffd8 0%, #0029e2 100%) !important;
+}
+
+.section2 h1 {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 90%;
+    margin: 40px 0;
+}
+
+.part1 {
+    width: 70%;
+}
+
+.part1 h3 {
+    margin: 14px 0;
+    font-size: 30px;
+}
+
+.part1 p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.part2 {
+    width: 30%;
+}
+
+.part2 img {
+    width: 100%;
+}
+
+.section3 {}
+
+.head {
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #0A9EE8;
+}
+
+.box1 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: radial-gradient(circle at bottom right, #00ffd8 0%, #0029e2 100%) !important;
+}
+
+.boldtext {
+    width: 70vw;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.innerbox1 {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.part-a {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-a img {
+    width: 70%;
+}
+
+.part-b {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    line-height: 1.4;
+    gap: 5px;
+}
+
+
+
+.line {
+    height: 1px;
+    background-color: black;
+    width: 100vw;
+    margin-top: 40px;
+    z-index: 10;
+}
+
+.foot {
+    height: 40px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    background-color: #0000ff;
+    color: #fff;
+    padding: 0 30px;
+}
+
+@media screen and (max-width:1024px) {
+    .password>p {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .showpassword p {
+        font-size: 16px;
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .part-a {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part-b {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        line-height: 1.4;
+        gap: 5px;
+    }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .password>p {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .showpassword p {
+        font-size: 15px;
+    }
+
+    #copybtn {
+        position: relative;
+        z-index: 10;
+        top: 10px;
+        left: 85%;
+        background-color: #9ccefb;
+        text-align: center;
+        padding: 0px 6px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px #39cef0;
+    }
+
+    .usedcharacters {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .password-container {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        padding: 4px;
+        margin: auto;
+    }
+
+    .section2 h1 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .part1 h3 {
+        margin: 14px 0;
+        font-size: 26px;
+    }
+
+    .part1 p {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .head {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        background-color: #0A9EE8;
+    }
+
+    .boldtext {
+        width: 70vw;
+        margin: auto;
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .part-a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part-b {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        line-height: 1.4;
+        gap: 5px;
+    }
+
+
+}
+
+@media screen and (max-width:425px) {
+    nav li:nth-child(1) {
+        display: none;
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .password>p {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .showpassword p {
+        font-size: 15px;
+    }
+
+    #copybtn {
+        position: relative;
+        z-index: 10;
+        bottom: 30px;
+        left: 82%;
+        background-color: #9ccefb;
+        text-align: center;
+        padding: 0px 6px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px #39cef0;
+    }
+
+    .usedcharacters {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .password-container {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        padding: 4px;
+        margin: auto;
+    }
+
+    .section2 h1 {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .part1 h3 {
+        margin: 14px 0;
+        font-size: px;
+    }
+
+    .part1 p {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .part1 {
+        width: 100%;
+    }
+
+    .part2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .part2 img {
+        width: 150px;
+        align-self: center;
+    }
+
+    .innerbox1 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .part-b {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        line-height: 1.4;
+        gap: 5px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    nav li {
+        font-size: 18px;
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .password>p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .showpassword p {
+        font-size: 13px;
+    }
+
+    #copybtn {
+        position: relative;
+        z-index: 10;
+        bottom: 30px;
+        left: 68%;
+        background-color: #9ccefb;
+        text-align: center;
+        padding: 0px 6px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px #39cef0;
+    }
+
+    .usedcharacters {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .password-container {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        padding: 4px;
+        margin: auto;
+    }
+
+    .section2 h1 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,38 @@
+.text{
+    color: #fff;
+}
+
+.flex{
+    display: flex;
+}
+
+.align{
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.gap1{
+    gap: 40px;
+}
+
+.gap2{
+    gap: 60px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.hide{
+    background-color: red;
+}
+
+
+

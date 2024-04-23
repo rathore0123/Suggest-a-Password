@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li>Password Hunter</li>
+            <li>@passwordranger.com</li>
+        </nav>
+    </header>
+    <main>
+        <div class="heading">
+            <p>How Secure is Your Password?</p>
+        </div>
+        <section>
+            <div class="section1">
+                <div class="password-container">
+                    <div class="password">
+                        <p>You can check your password strength here</p>
+                        <div class="showpassword">
+                            <div>
+                                <p><b>Tip:</b>Try to make your passwords at least 15 characters long</p>
+                            </div>
+                            <div><button id="show">Show</button></div>
+                        </div>
+                    </div>
+                    <div class="input-password">
+                        <input type="password" name="password" id="password" oninput="passwordComplexity()">
+                        <div class="copy"><button id="copybtn">Copy</button></div>
+                        <div class="text">No Password</div>
+                    </div>
+                    <div class="usedcharacters">
+                        <li class="count">Characters Count:0</li>
+                        <li class="lower">Lower case</li>
+                        <li class="upper">Upper case</li>
+                        <li class="number">Number</li>
+                        <li class="symbol">Symbols</li>
+                    </div>
+                    <div class="suggest">
+                        <button class="sug-paasword">Generate a strong Password</button>
+                        <ul>
+                            <li><p>When you do use full words, combine words that are unrelated and avoid spelling words as <br>they are in the dictionary.</p></li>
+                            <li><p>Make It 12 Characters or Longer The longer the password, the better. But 12 is the minimum<br>length to create a challenging and secure password</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <h1>About This Password Checker</h1>
+                <div class="box">
+                    <div class="part1">
+                        <h3>Is it actually safe to use Password Checkers?</h3>
+                        <p>If you’re reading this section, then good – the quickest way to get hacked online is to be too trusting or assume websites are automatically safe. It’s good to be cautious and it’s never a good idea to enter your legitimate credentials into any website you are not confident about. The ones to watch especially are those who ask you to input your credentials.</p>
+                    </div>
+                    <div class="part2">
+                        <img src="/images/security.webp" alt="secure">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="part2">
+                        <img src="/images/privacy.webp" alt="secure">
+                    </div>
+                    <div class="part1">
+                        <h3>So, why is this Password Strength Meter safe?</h3>
+                        <p>The passwords you type never leave your browser and we don’t store them (You candisconnect your internet connection and then try it if you wish)</p>
+                        <p>All the checking is done on the page you’re on, not on our servers.</p>
+                        <p>Even if the password was sent to us, we wouldn’t actually know who you were anyway – socouldn’t match it up to any usernames or any websites you may visit.</p>
+                        <p>We’re in the business of making people more secure online and the last thing we want tosee is passwords being transmitted across the internet insecurely.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="part1">
+                        <h3>How does My1Login’s Password Strength Checker work?</h3>
+                        <p>If you’re reading this section, then good – the quickest way to get hacked online is to be too trusting or assume websites are automatically safe. It’s good to be cautious and it’s never a good idea to enter your legitimate credentials into any website you are not confident about. The ones to watch especially are those who ask you to input your credentials.</p>
+                    </div>
+                    <div class="part2">
+                        <img src="/images/laptop.webp" alt="secure">
+                    </div>
+                </div>
+            </div>
+            <div class="section3">
+                <div class="head">
+                    <p>Strong Passwords Tips and Tricks</p>
+                </div>
+                <div class="box1">
+                    <p class="boldtext">Common mistakes and misconceptions</p>
+                    <div class="innerbox1">
+                        <div class="part-a">
+                            <img src="/images/warn.webp" alt="warning">
+                        </div>
+                        <div class="part-b">
+                            <p>Replacing letters with digits and symbols. This technique is well known to hackers so swapping an “E” for a “3” or a “5” for a “$” doesn’t make you much more secure.</p>
+                            <p>That meeting the minimum requirements for a password makes it strong. By today’s standards, an 8-character password won’t make you very secure.</p>
+                            <p>That it’s fine to use the same password a lot as long as it’s strong – what if the website is hacked? Do you know how the website stores your password? What if they store it in plaintext?</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="box1">
+                    <p class="boldtext">Guilty</p>
+                    <div class="innerbox1">
+                        <div class="part-a">
+                            <img src="/images/file.webp" alt="file">
+                        </div>
+                        <div class="part-b">
+                            <p>Weak practices – storing passwords in the notes field on your phone, does it auto sync to the cloud, iCloud or Dropbox.</p>
+                            <p>Putting them in a spreadsheet, even password protecting a spreadsheet doesn’t keep the information safe. Check out our blog on this and other security subjects.</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="box1">
+                    <p class="boldtext">What makes a strong password?</p>
+                    <div class="innerbox1">
+                        <div class="part-a">
+                            <img src="/images/key.webp" alt="key">
+                        </div>
+                        <div class="part-b">
+                            <p>A strong password is one that’s either not easily guessed or not easily brute forced. To make it not easily guessed it can’t be a simple word, to make it not easily cracked it needs to be long and complex. Super computers can go through billions of attempts per second to guess a password. Try to make your passwords a minimum of 14 characters.</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="box1">
+                    <p class="boldtext">Passphrase</p>
+                    <div class="innerbox1">
+                        <div class="part-a">
+                            <img src="/images/encryptedfile.webp" alt="file">
+                        </div>
+                        <div class="part-b">
+                            <p>A passphrase is simply a password, that’s longer, it could be a sentence, with spaces and punctuation in it. The benefit of a passphrase is that typically they’re easier to remember, but more difficult to crack due to their length.</p>
+                            <p>For every additional character in the length of a password or passphrase, the time it would take to break increases exponentially.</p>
+                            <p>Ultimately that means that having a long password or passphrase can make you far more secure than having a short one with some symbols or numbers in it.</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </section>  
+    </main>
+
+    <footer>
+        <div class="foot">
+            <p>@2024 | My Terms😊</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
